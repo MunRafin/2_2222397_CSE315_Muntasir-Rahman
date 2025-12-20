@@ -26,7 +26,7 @@ static int __init simple_module_init(void)
     printk(KERN_INFO "==============================================\n");
     
     /* Print GOLDEN_RATIO_PRIME from <linux/hash.h> */
-    printk(KERN_INFO "GOLDEN_RATIO_PRIME = %lu\n", GOLDEN_RATIO_PRIME);
+    printk(KERN_INFO "GOLDEN_RATIO_PRIME = %llu\n", GOLDEN_RATIO_PRIME);
     
     printk(KERN_INFO "Module loaded successfully!\n");
     printk(KERN_INFO "==============================================\n");
